@@ -60,7 +60,8 @@ body {
 	height: 100%;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
 	font-family:$serif;
 	font-weight: normal;
 	font-family:   "Belizio Medium";
@@ -98,7 +99,7 @@ a {
 }
 
 .nav-circle {
-	position: fixed;
+	position: absolute;
 	right: -70px;
 	top: 9vh;
 
@@ -315,4 +316,8 @@ a {
 
 .black-icon {
 	fill: #222;
+}
+
+.list-clients {
+
 }

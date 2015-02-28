@@ -664,9 +664,9 @@ $progress-bar-info-bg:        $brand-info !default;
 //##
 
 //** Background color on `.list-group-item`
-$list-group-bg:                 #fff !default;
+$list-group-bg:                 transparent;
 //** `.list-group-item` border color
-$list-group-border:             #ddd !default;
+$list-group-border:             #ccc;
 //** List group border radius
 $list-group-border-radius:      $border-radius-base !default;
 
